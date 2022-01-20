@@ -1,0 +1,139 @@
+body{
+    background: rgb(239,132,245);
+background: linear-gradient(90deg, rgba(239,132,245,1) 0%, rgba(21,38,92,1) 57%, rgba(46,224,154,1) 100%);
+    color: white;
+}
+
+.navbar{
+   
+    background: rgb(21,35,79);
+    background: radial-gradient(circle, rgba(21,35,79,1) 0%, rgba(30,83,62,1) 100%);
+}
+
+ section{
+    margin: 6rem 0;
+}
+
+.rounded-btn {
+    background-color: #172922;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+  }
+  .rounded-btn i {
+      width:20px;
+      height:20px
+  }
+  .rounded-btn:hover{
+      cursor: pointer;
+      transform: scale(1.2);
+      color:#fff;
+      transition: 0.5s;
+      filter: brightness(140%);
+    }
+  .collection-item {
+    padding: 30px;
+    filter: brightness(30%);
+
+  }
+  .collection-item:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.9s;
+    filter: brightness(110%);
+  }
+  .roadmap-steps{
+      margin-top:10rem;
+      width:100%;
+  }
+  footer {
+    margin-right:5rem;
+      text-align: right;
+  }
+
+  
+
+  .btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+     transform: scale(1.1);
+   }
+
+   .btn-footer{
+       align-items: center;
+       width: 40%;
+       height: 110%;
+   }
+  a{
+   text-decoration: none;
+   color: white;
+  }
+
+  .banner-tittle:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: brightness(80%);
+  }
+
+
+
+
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    width:50px;
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: brightness(150%); /* Add a dark-grey background on hover */
+  }
+
+
+  @media (max-width: 768px) { 
+      
+    .roadmap-steps{
+        margin-top:0;
+        width:100%;
+    }
+    .home{
+        width:100%;
+    }
+    .footer {
+        margin-right:10rem;
+      }
+  }
