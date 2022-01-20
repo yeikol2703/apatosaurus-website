@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Luckiest+Guy&family=Nunito:wght@700&display=swap');
+*{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Nunito', sans-serif;
+}
 body{
     background: rgb(239,132,245);
 background: linear-gradient(90deg, rgba(239,132,245,1) 0%, rgba(21,38,92,1) 57%, rgba(46,224,154,1) 100%);
