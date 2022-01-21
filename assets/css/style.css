@@ -7,13 +7,12 @@
 body{
 
 
-    background: rgb(239,132,245);
-background: linear-gradient(90deg, rgba(239,132,245,1) 0%, rgba(21,38,92,1) 57%, rgba(46,224,154,1) 100%);
+    
     color: white;
-
+ 
     background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
-}
+  }
 
 .navbar{
    
@@ -50,14 +49,14 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, 
     }
   .collection-item {
     padding: 30px;
-    filter: brightness(30%);
+    filter: brightness(80%);
 
   }
   .collection-item:hover{
     cursor: pointer;
     transform: scale(1.02);
     transition: 0.9s;
-    filter: brightness(110%);
+    filter: brightness(140%);
   }
   .roadmap-steps{
       margin-top:10rem;
@@ -92,7 +91,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, 
 
    .btn-footer{
        align-items: center;
-       width: 40%;
+       width: 60%;
        height: 110%;
    }
   a{
@@ -106,10 +105,6 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, 
     transition: 0.5s;
     filter: brightness(80%);
   }
-
-
-
-
 
   #myBtn {
     display: none; /* Hidden by default */
@@ -134,7 +129,6 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, 
     filter: brightness(150%); /* Add a dark-grey background on hover */
   }
 
-
   @media (max-width: 768px) { 
       
     .roadmap-steps{
@@ -142,13 +136,19 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, 
         width:100%;
     }
     .home{
+        padding:0;
+        margin:0;
         width:100%;
+    }
+    .m-5{
+      margin: 0rem!important;
     }
     .footer {
         margin-right:10rem;
       }
+      
+     
   }
-
 
   img{
     border-radius: 15px;
